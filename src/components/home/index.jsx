@@ -35,7 +35,7 @@ export default function () {
     return (
         <>
             <Helmet>
-                <title>Molla React Ecommerce - Furniture Store</title>
+                <title>Bodogo! Furnish the comfort you deserve.</title>
             </Helmet>
 
             <h1 className="d-none">Molla React Ecommerce - Furniture Store</h1>
