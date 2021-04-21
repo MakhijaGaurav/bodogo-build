@@ -25,7 +25,7 @@ export default function BannerGroup() {
                             <div className="banner-content banner-content-top">
                                 <h4 className="banner-subtitle">Clearence</h4>
                                 <h3 className="banner-title">Coffee Tables</h3>
-                                <div className="banner-text">from $19.99</div>
+                                <div className="banner-text">from ₹ 1000</div>
                                 <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="btn btn-outline-gray banner-link">Shop Now<i className="icon-long-arrow-right"></i></Link>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ export default function BannerGroup() {
                             <div className="banner-content banner-content-bottom">
                                 <h4 className="banner-subtitle text-grey">On Sale</h4>
                                 <h3 className="banner-title text-white">Amazing <br />Armchairs</h3>
-                                <div className="banner-text text-white">from $39.99</div>
+                                <div className="banner-text text-white">from ₹ 500</div>
                                 <Link to={ `${process.env.PUBLIC_URL}/shop/sidebar/list` } className="btn btn-outline-white banner-link">Discover Now<i className="icon-long-arrow-right"></i></Link>
                             </div>
                         </div>

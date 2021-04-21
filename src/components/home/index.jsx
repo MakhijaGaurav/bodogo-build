@@ -35,7 +35,7 @@ export default function () {
     return (
         <>
             <Helmet>
-                <title>Molla React Ecommerce - Furniture Store</title>
+                <title>Bodogo! Furnish the comfort you deserve.</title>
             </Helmet>
 
             <h1 className="d-none">Molla React Ecommerce - Furniture Store</h1>
@@ -53,7 +53,7 @@ export default function () {
                     <span className="slider-loader text-white"></span>
                 </div>
 
-                <Brand adClass="brands-border owl-simple" />
+                {/*<Brand adClass="brands-border owl-simple" />*/}
 
                 <div className="mb-3 mb-lg-5"></div>
 
@@ -90,7 +90,7 @@ export default function () {
                                     <div className="banner-content banner-content-top banner-content-center">
                                         <h4 className="banner-subtitle">The Best Choice</h4>
                                         <h3 className="banner-title">AGEN</h3>
-                                        <div className="banner-text text-primary">$49.99</div>
+                                        <div className="banner-text text-primary">₹ 999</div>
                                         <Link to="#" className="btn btn-outline-gray banner-link">Shop Now<i className="icon-long-arrow-right"></i></Link>
                                     </div>
                                 </div>
@@ -107,7 +107,7 @@ export default function () {
                     <hr className="mt-1 mb-6" />
                 </div>
 
-                <BlogSection />
+                {/*<BlogSection />*/}
             </div>
 
             <ServiceBox adClass="bg-light" />

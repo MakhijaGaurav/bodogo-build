@@ -24,38 +24,38 @@ function Header( props ) {
             <div className="header-top">
                 <div className={ container }>
                     <div className="header-left">
-                        <p>Special collection already available.</p><Link to="#">&nbsp;Read more ...</Link>
+                        {/*<p>Special collection already available.</p><Link to="#">&nbsp;Read more ...</Link>*/}
                     </div>
 
                     <div className="header-right">
                         <ul className="top-menu">
                             <li>
-                                <Link to="#">Links</Link>
+                                {/*<Link to="#">Links</Link>*/}
                                 <ul>
                                     <li>
                                         <div className="header-dropdown">
-                                            <Link to="#">USD</Link>
-                                            <div className="header-menu">
-                                                <ul>
-                                                    <li><Link to="#">Eur</Link></li>
-                                                    <li><Link to="#">Usd</Link></li>
-                                                </ul>
-                                            </div>
+                                            {/*<Link to="#">USD</Link>*/}
+                                            {/*<div className="header-menu">*/}
+                                            {/*    <ul>*/}
+                                            {/*        <li><Link to="#">Eur</Link></li>*/}
+                                            {/*        <li><Link to="#">Usd</Link></li>*/}
+                                            {/*    </ul>*/}
+                                            {/*</div>*/}
                                         </div>
                                     </li>
                                     <li>
                                         <div className="header-dropdown">
-                                            <Link to="#">English</Link>
-                                            <div className="header-menu">
-                                                <ul>
-                                                    <li><Link to="#">English</Link></li>
-                                                    <li><Link to="#">French</Link></li>
-                                                    <li><Link to="#">Spanish</Link></li>
-                                                </ul>
-                                            </div>
+                                            {/*<Link to="#">English</Link>*/}
+                                            {/*<div className="header-menu">*/}
+                                            {/*    <ul>*/}
+                                            {/*        <li><Link to="#">English</Link></li>*/}
+                                            {/*        <li><Link to="#">French</Link></li>*/}
+                                            {/*        <li><Link to="#">Spanish</Link></li>*/}
+                                            {/*    </ul>*/}
+                                            {/*</div>*/}
                                         </div>
                                     </li>
-                                    <li><Link to="#signin-modal" data-toggle="modal" onClick={ openLoginModal }>Sign in / Sign up</Link></li>
+                                    {/*<li><Link to="#signin-modal" data-toggle="modal" onClick={ openLoginModal }>Sign in / Sign up</Link></li>*/}
                                 </ul>
                             </li>
                         </ul>
@@ -90,15 +90,16 @@ function Header( props ) {
                             </Link>
                         </div>
 
-                        <div className="wishlist">
-                            <Link to={ `${process.env.PUBLIC_URL}/shop/wishlist` } title="Wishlist">
-                                <div className="icon">
-                                    <i className="icon-heart-o"></i>
-                                    <span className="wishlist-count badge">{ isWishlist.length }</span>
-                                </div>
-                                <p>Wishlist</p>
-                            </Link>
-                        </div>
+                        {/*<div className="wishlist">*/}
+                        {/*    <Link to={ `${process.env.PUBLIC_URL}/shop/wishlist` } title="Wishlist">*/}
+                        {/*        <div className="icon">*/}
+                        {/*            <i className="icon-heart-o"></i>*/}
+                        {/*            <span className="wishlist-count badge">{ isWishlist.length }</span>*/}
+                        {/*        </div>*/}
+                        {/*        <p>Wishlist</p>*/}
+                        {/*    </Link>*/}
+                        {/*</div>*/}
+
                         <CartMenu />
                     </div>
                 </div>

@@ -17,8 +17,8 @@ export default function DealBanner() {
                 </h3>
 
                 <div className="product-price">
-                    <span className="new-price">$149.00</span>
-                    <span className="old-price">Was $240.00</span>
+                    <span className="new-price">₹ 3500</span>
+                    <span className="old-price">₹ 7500</span>
                 </div>
 
                 <div className="deal-countdown" data-until="+10h">

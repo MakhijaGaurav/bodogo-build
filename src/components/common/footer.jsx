@@ -18,7 +18,7 @@ function Footer( props ) {
                                     <div className="row">
                                         <div className="col-sm-6 col-md-4">
                                             <span className="widget-about-title">Got Question? Call us 24/7</span>
-                                            <Link to="tel:123456789">+0123 456 789</Link>
+                                            <Link to="tel:123456789">+91 8329933608</Link>
                                         </div>
                                         <div className="col-sm-6 col-md-8">
                                             <span className="widget-about-title">Payment Method</span>
@@ -36,8 +36,8 @@ function Footer( props ) {
                                 <h4 className="widget-title">Information</h4>
 
                                 <ul className="widget-list">
-                                    <li><Link to={ `${process.env.PUBLIC_URL}/about` }>About Molla</Link></li>
-                                    <li><Link to={ `${process.env.PUBLIC_URL}/pages/about` }>How to shop on Molla</Link></li>
+                                    <li><Link to={ `${process.env.PUBLIC_URL}/about` }>About Bodogo</Link></li>
+                                    <li><Link to={ `${process.env.PUBLIC_URL}/pages/about` }>How to shop on Bodogo</Link></li>
                                     <li><Link to={ `${process.env.PUBLIC_URL}/pages/faq` }>FAQ</Link></li>
                                     <li><Link to={ `${process.env.PUBLIC_URL}/pages/contact` }>Contact us</Link></li>
                                     <li><Link to={ `${process.env.PUBLIC_URL}/pages/login` }>Log in</Link></li>
