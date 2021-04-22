@@ -21,47 +21,47 @@ function Header( props ) {
 
     return (
         <header className="header header-2 header-intro-clearance">
-            <div className="header-top">
-                <div className={ container }>
-                    <div className="header-left">
-                        {/*<p>Special collection already available.</p><Link to="#">&nbsp;Read more ...</Link>*/}
-                    </div>
+            {/*<div className="header-top">*/}
+            {/*    <div className={ container }>*/}
+            {/*        <div className="header-left">*/}
+            {/*            /!*<p>Special collection already available.</p><Link to="#">&nbsp;Read more ...</Link>*!/*/}
+            {/*        </div>*/}
 
-                    <div className="header-right">
-                        <ul className="top-menu">
-                            <li>
-                                {/*<Link to="#">Links</Link>*/}
-                                <ul>
-                                    <li>
-                                        <div className="header-dropdown">
-                                            {/*<Link to="#">USD</Link>*/}
-                                            {/*<div className="header-menu">*/}
-                                            {/*    <ul>*/}
-                                            {/*        <li><Link to="#">Eur</Link></li>*/}
-                                            {/*        <li><Link to="#">Usd</Link></li>*/}
-                                            {/*    </ul>*/}
-                                            {/*</div>*/}
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="header-dropdown">
-                                            {/*<Link to="#">English</Link>*/}
-                                            {/*<div className="header-menu">*/}
-                                            {/*    <ul>*/}
-                                            {/*        <li><Link to="#">English</Link></li>*/}
-                                            {/*        <li><Link to="#">French</Link></li>*/}
-                                            {/*        <li><Link to="#">Spanish</Link></li>*/}
-                                            {/*    </ul>*/}
-                                            {/*</div>*/}
-                                        </div>
-                                    </li>
-                                    {/*<li><Link to="#signin-modal" data-toggle="modal" onClick={ openLoginModal }>Sign in / Sign up</Link></li>*/}
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            {/*        <div className="header-right">*/}
+            {/*            <ul className="top-menu">*/}
+            {/*                <li>*/}
+            {/*                    /!*<Link to="#">Links</Link>*!/*/}
+            {/*                    <ul>*/}
+            {/*                        <li>*/}
+            {/*                            <div className="header-dropdown">*/}
+            {/*                                /!*<Link to="#">USD</Link>*!/*/}
+            {/*                                /!*<div className="header-menu">*!/*/}
+            {/*                                /!*    <ul>*!/*/}
+            {/*                                /!*        <li><Link to="#">Eur</Link></li>*!/*/}
+            {/*                                /!*        <li><Link to="#">Usd</Link></li>*!/*/}
+            {/*                                /!*    </ul>*!/*/}
+            {/*                                /!*</div>*!/*/}
+            {/*                            </div>*/}
+            {/*                        </li>*/}
+            {/*                        <li>*/}
+            {/*                            <div className="header-dropdown">*/}
+            {/*                                /!*<Link to="#">English</Link>*!/*/}
+            {/*                                /!*<div className="header-menu">*!/*/}
+            {/*                                /!*    <ul>*!/*/}
+            {/*                                /!*        <li><Link to="#">English</Link></li>*!/*/}
+            {/*                                /!*        <li><Link to="#">French</Link></li>*!/*/}
+            {/*                                /!*        <li><Link to="#">Spanish</Link></li>*!/*/}
+            {/*                                /!*    </ul>*!/*/}
+            {/*                                /!*</div>*!/*/}
+            {/*                            </div>*/}
+            {/*                        </li>*/}
+            {/*                        /!*<li><Link to="#signin-modal" data-toggle="modal" onClick={ openLoginModal }>Sign in / Sign up</Link></li>*!/*/}
+            {/*                    </ul>*/}
+            {/*                </li>*/}
+            {/*            </ul>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
 
             <div className="header-middle">
                 <div className={ container }>

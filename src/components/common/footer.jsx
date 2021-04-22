@@ -18,7 +18,7 @@ function Footer( props ) {
                                     <div className="row">
                                         <div className="col-sm-6 col-md-4">
                                             <span className="widget-about-title">Got Question? Call us 24/7</span>
-                                            <Link to="tel:123456789">+91 8329933608</Link>
+                                            <Link to="tel:123456789">+91 8329336608</Link>
                                         </div>
                                         <div className="col-sm-6 col-md-8">
                                             <span className="widget-about-title">Payment Method</span>
